@@ -1,0 +1,4 @@
+cron:
+- description: semester data clean up
+  url: /updateStudent
+  schedule: 2nd,third mon,wed,thu of jan,jun,oct 10:00 
