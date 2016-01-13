@@ -3,7 +3,7 @@ Created on 9 Jul 2014
 
 @author: podero
 
-This module generated csv files to be downloaded from the graphs on +Numbers
+This module generated csv files to be downloaded from the portal.
 '''
 from google.appengine.ext import webapp
 from google.appengine.ext.webapp.util import run_wsgi_app
