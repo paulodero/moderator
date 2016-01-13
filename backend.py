@@ -3,19 +3,7 @@ Created on Jun 12, 2014
 
 @author: podero
 '''
-# App Engine API (works with both HTTP GET and POST requests):
-# To echo request parameters:
-#   http://hugo-test.appspot.com/rpc?action=Echo&params={"key":"a","value":"xxx"}&key=mySecretKey
-# Returns: {"value": "xxx", "key": "a"}
-# To compute the square of a number:
-#   http://hugo-test.appspot.com/rpc?action=Square&params={"value":11}&key=mySecretKey
-# Returns: {"value": 121}
-# To store a key value pair:
-#   http://hugo-test.appspot.com/rpc?action=Store&params={"key":"a","value":"xxx"}&key=mySecretKey
-# Returns: {"retCode": "Ok"}
-# To lookup value by key:
-#   http://hugo-test.appspot.com/rpc?action=Lookup&params={"key":"a"}&key=mySecretKey
-# Returns: {"retCode": "Ok", "value": "xxx"}
+# Web service that receives http requests from Googles's forms'appscript and processes.
 
 import json
 import webapp2
